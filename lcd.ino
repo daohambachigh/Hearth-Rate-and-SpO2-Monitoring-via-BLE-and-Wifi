@@ -4,12 +4,12 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 // Cấu hình thông tin Wi-Fi
-#define WIFI_SSID "OPPO A53"
-#define WIFI_PASSWORD "00000000"
+#define WIFI_SSID "your ssid"
+#define WIFI_PASSWORD "your password"
 // Cấu hình thông tin Firebase
-#define API_KEY "AIzaSyDbn7kJuDQq7QK-8hXG9C66s2vQZJNq_3Y"
-#define DATABASE_URL "health-band-cebba-default-rtdb.asia-southeast1.firebasedatabase.app"
-#define FIREBASE_AUTH "YMvSSQgZLukJeXap6CUac1Rf9ssFX3CfyQoYWeNL"
+#define API_KEY "api key"
+#define DATABASE_URL "firebase database url"
+#define FIREBASE_AUTH "authentication"
 // Khởi tạo màn hình LCD 16x2 sử dụng giao tiếp I2C
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 // Khởi tạo Firebase
